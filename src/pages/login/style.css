@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(210, 255, 251);
+    font-family: 'Expletus Sans', cursive;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    width: 500px;
+    padding: 40px;
+    background: rgb(150, 255, 251);
+    text-align: center;
+
+}
+
+.box input[type="email"],
+.box input[type="password"] {
+    background: none;
+    display: block;
+    margin: 10px auto;
+    border: 2px solid rgb(100,195,255);
+    padding: 4px;
+    width: 300px;
+    outline: none;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.box input[type="email"]:focus,
+.box input[type="password"]:focus {
+    width: 380px;
+    border-color: rgb(0,165,70);
+}
+
+.box button {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid rgb(0,165,70);
+    padding: 10px 40px;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.box button:hover {
+    background: rgb(0,165,70);
+}
+
+.box a {
+    text-decoration: none
+}
+
+.forgot {
+    margin-left: 30px;
+}

@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    background: rgb(210, 255, 251);
+    font-family: 'Expletus Sans', cursive;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background: rgb(150, 255, 251);
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    border-top: 2px solid rgb(0, 0, 0);
+    display: inline-block;
+    padding: 5px 30px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    justify-content :flex-end;
+    margin: 20px auto;
+}
+
+.search input {
+    background: none;
+    text-align: left;
+    margin-right: 15px;
+    padding: 10px 10px;
+}
+
+.card layout {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.card-item {
+    width: 250px;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px;
+}

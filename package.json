@@ -1,0 +1,26 @@
+{
+  "name": "portaldasmascaras",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RenanMontanaro/Portaldasmascaras.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RenanMontanaro/Portaldasmascaras/issues"
+  },
+  "homepage": "https://github.com/RenanMontanaro/Portaldasmascaras#readme",
+  "devDependencies": {
+    "electron": "^9.0.3"
+  },
+  "dependencies": {
+    "electron-reload": "^1.5.0"
+  }
+}
