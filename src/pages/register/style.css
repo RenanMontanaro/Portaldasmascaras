@@ -38,6 +38,7 @@ body {
 }
 
 .box button {
+    width: 180px;
     border: 0;
     background: none;
     display: block;
